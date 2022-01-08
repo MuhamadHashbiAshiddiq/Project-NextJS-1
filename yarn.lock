@@ -1806,6 +1806,15 @@
     "@strapi/utils" "4.0.3"
     "sendmail" "^1.6.1"
 
+"@strapi/provider-upload-cloudinary@^4.0.3":
+  "integrity" "sha512-QwbdYLIINBaiG+rgZzTuOdSqkLD8ccqDmiyhq4P4QlIZYxQ+9V0F2nTjnxqCA0FhnSgdliK+q5J6/sFCOC8QTg=="
+  "resolved" "https://registry.npmjs.org/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.0.3.tgz"
+  "version" "4.0.3"
+  dependencies:
+    "@strapi/utils" "4.0.3"
+    "cloudinary" "^1.25.1"
+    "into-stream" "^5.1.0"
+
 "@strapi/provider-upload-local@4.0.3":
   "integrity" "sha512-gYDhk+vgE59wqECsuOKyYyLc1pBFpOCvb0Cjbo9rEcsjfbBF+e7tBbUlbbDBRiRQBYm9QTz5JTgNIb9fOSJiKg=="
   "resolved" "https://registry.npmjs.org/@strapi/provider-upload-local/-/provider-upload-local-4.0.3.tgz"
@@ -9928,6 +9937,11 @@
   "integrity" "sha1-CzpmK10Ewxd7GSa+qCsD+Dei70E="
   "resolved" "https://registry.npmjs.org/sliced/-/sliced-1.0.1.tgz"
   "version" "1.0.1"
+
+"slugify@^1.6.5":
+  "integrity" "sha512-8mo9bslnBO3tr5PEVFzMPIWwWnipGS0xVbYf65zxDqfNwmzYn1LpiKNrR6DlClusuvo+hDHd1zKpmfAe83NQSQ=="
+  "resolved" "https://registry.npmjs.org/slugify/-/slugify-1.6.5.tgz"
+  "version" "1.6.5"
 
 "smart-buffer@^4.1.0":
   "integrity" "sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg=="

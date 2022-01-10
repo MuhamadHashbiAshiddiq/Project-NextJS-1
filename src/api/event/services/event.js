@@ -1,9 +1,10 @@
-'use strict';
+// 'use strict';
 
-/**
- * event service.
- */
+// /**
+//  * event router.
+//  */
 
-const { createCoreService } = require('@strapi/strapi').factories;
+// const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::event.event');
+// module.exports = createCoreRouter('api::event.event');
+

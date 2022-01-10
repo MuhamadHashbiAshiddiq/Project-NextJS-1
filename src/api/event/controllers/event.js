@@ -1,16 +1,9 @@
-const slugify = require('slugify');
+// 'use strict';
 
-module.exports = {
-  lifecycles: {
-    beforeCreate: async (data) => {
-      if (data.name) {
-        data.slug = slugify(data.name, {lower: true});
-      }
-    },
-    beforeCreate: async (params, data) => {
-      if (data.name) {
-        data.slug = slugify(data.name, {lower: true});
-      }
-    }
-  }
-}
+// /**
+//  * event router.
+//  */
+
+// const { createCoreRouter } = require('@strapi/strapi').factories;
+
+// module.exports = createCoreRouter('api::event.event');
